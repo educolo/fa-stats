@@ -5,4 +5,10 @@ Django project to record my league football stats
 
 
 ## Install
-Create dbconfig.py (you can modifify and rename dbconfig_sample.py) to configure your local database
+Create settings/local.py to configure your local enviroment
+
+### How to use the local settings (UNIX)
+export DJANGO_SETTINGS_MODULE=stats.settings.local
+
+### How to use the local settings (WIN)
+set DJANGO_SETTINGS_MODULE=stats.settings.local

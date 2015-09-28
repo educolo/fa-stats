@@ -55,5 +55,5 @@ docs/_build/
 
 # PyBuilder
 target/
-/mystats/dbconfig.py
 *.pyc
+/stats/settings/local.py
